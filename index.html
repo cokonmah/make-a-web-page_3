@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - A Pen by  Chi Chi Okonmah</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <link rel="stylesheet" type="text/css" href="project1.css">
+      <meta charset="utf-8">
+      <title>My First Webpage</title>
+    </head>
+
+<!-- REMEMBER: You MUST CLOSE THE </HEAD> tag (see above) BEFORE opening the <BODY> tag -->
+
+<body>
+
+<a id="TOP"><H1> BEGINNING WEB DESIGN </H1></a>
+
+<H2 class="TOC">Table of Contents</H2>
+
+<a href="#Part1"><H3 class="TOC"> Part 1: HTML Basics</H3></a>
+<a href="#Part2"><H3 class="TOC"> Part 2: Creating Structure with HTML</H3></a>
+<a href="#Part3"><H3 class="TOC"> Part 3: Adding Style to Your Webpage with CSS (Cascading Style Sheets)</H3></a>
+
+<a id="Part1"> <H3> Part 1: HTML Basics</H3></a>
+<div class="section">
+	<H2>UNDERSTANDING THE WEB</H2> 
+	    <p> You access the Internet via a <b>browser</b> on your computer <em>(e.g., Chrome, Firefox, etc.)</em>.
+	    The Internet protocol, <b>HTTP</b>, manages how data is transferred from your browser to the Internet 
+	    and then back to your computer. The Internet is comprised of millions of <b>servers</b> which communicate
+	    and send back <i>(via HTTP)</i> data based on what you're doing via your browser. Most of what you see
+            on the Internet are <b>HTML</b> files.</p>
+<a href="#TOP"> back to top </a>
+</div>
+
+<div class="section">
+	<H2>BEGINNING HTML</H2>
+	    <p> HTML is the language of the Internet. The HTML language is comprised of <b>tags</b> "&lt; &gt;" and <b>elements</b>.
+	    <em>(e.g., title, body, h1).</em> Most HTML tags have both an "opening" tag "&lt; &gt;" and a "closing" tag "&lt;&#47; &gt;". 
+	    The content you want to effect with the tag should be written between the "opening" and "closing" tag(s). HTML tags 
+	    that do not "close" <em>(i.e., do not have a "closing" tag)</em> are called <b>void</b> tags.</p>
+
+	    <p> Every HTML page must begin with certain "system information". This information is read by the browser and 
+		must be stored in the HTML "header". HTML "header" information is everything above the opening <b><em>body</em></b> tag.
+		Everything between the "opening" <b><em>body</em></b> tag and the "closing <b><em>body</em></b> tag is what 
+		will appear on your webpage.</p>
+<a href="#TOP"> back to top </a>
+</div>
+
+<div class="section">
+  	<H2>TEXT FORMATTING WITH HTML <em>(a few simple examples)</em></H2>
+		<H3>BOLD & <em>ITALICS</em>:</H3>
+
+  		<p><b>This is BOLDED text, but this tag is no longer supported in HTML 5.</b>
+  		<strong>This is also BOLDED text. This is the current, supported tag for bolding text in HTML 5.</strong></p>
+ <br>
+
+		<p><i>This is ITALICIZED text, but this tag is no longer supported in HTML 5.</i>
+ 		<em>This is also ITALICIZED text. This is the current, supported tag for italicizing text in HTML 5.</em></p>
+ <br><br>
+<!--The tag above is a line break. REMEMBER: This is a comment tag. The web browser will not display this text on the webpage-->
+<a href="#TOP"> back to top </a>
+</div>
+
+<div class="section">
+	<H2>"INLINE" & "BLOCK" ELEMENTS</H2>
+		<p> <strong>Inline</strong> elements <em>(such as the "anchor", "line break", "image", and "span" tags)</em> are 
+		HTML tags that <span style="color:green"><strong>do <u>not</u> affect the area around the text</strong>.</span> 
+		It treats the text like other text on the same line. <span style="color:orange">Inline tags (like "span") will keep
+		text enclosed in the tags on the same line as the surrounding text.</span></p>
+
+		<p><strong>Block</strong> elements <em>(such as the "paragraph", "form", and "div" tags)</em> are HTML tags that 
+		<strong> do affect the area around the text</strong> by essentially putting an <em>invisible box</em> around 
+		the text, allowing you to set the specific width and/or height of the <em>box</em></p>. <div style="color:orange">
+		Block tags will push text enclosed in the tags to a new line.</div> <em>"Do you <u>'see'</u> the 
+		<strong>'invisible box'</strong> surrounding the text on the line above?"</em><br><br>
+
+<a href="#TOP"> back to top </a>
+</div><br>
+
+<a id="Part2"><H3> Part 2: Creating Structure with HTML</H3></a>
+<div class="section">
+	<H2>MORE ON "INLINE" & "BLOCK" ELEMENTS</H2>
+		<p> Using <strong>Inline</strong> and <strong>Block</strong> tags/elements can help to add structure to your webpage. 
+		Before beginning any webpage design, you should begin with a "sketch" or "mock-up" of how the page should look. 
+		Irregardless of your design, you'll begin to see that everything on your page can be "put into a box". Once you 
+		identify the overall "box design" of your page, you can create your "boxes", or "content containers" using 
+		Block tags <em>(like div)</em>, or creating specific classes <em>(like header and footer)</em>, using <strong>CSS</strong>.</p> 
+		<br>
+
+<a href="#TOP"> back to top </a>
+</div>
+
+<div class="section">
+	<H2>BROWSER DEVELOPER TOOLS</H2>
+		<p> When the browser reads an HTML file, it generates a <strong>"tree-like structure"</strong> referred to as a 
+		<strong>"Document Object Model"</strong>. In simpler terms, the browser makes a "mock-up" of your webpage. The 
+		difference is the browser's "sketch" is a bit more complex. To view the <strong>"DOM"</strong> for your webpage, 
+		open the <strong>"Developer Tools"</strong> menu option in your browser. You can use <strong>"Developer Tools"</strong>
+		to make <strong><em>temporary</em></strong> changes to your webpage without editing the actual HMTL code.</p><br>
+
+<a href="#TOP"> back to top </a>
+</div><br>
+
+<a id="Part3"><H3> Part 3: Adding Style to Your Webpage with CSS (Cascading Style Sheets)</H3></a>
+<div class="section1">
+	<H2 class="section">FORMATTING WITH CSS</H2>
+		<p>While HTML provides the content for a webpage, CSS is what let's you "make it pretty". CSS, while it works with HTML,
+		has it's own language, syntax, and rules. You can link to an <strong>external CSS file</strong>, incorporate 
+		<strong>internal CSS</strong> styles in the header of an .html page, or create an <span style=color:blue>inline CSS</span> 
+		style anywhere on a webpage.</p>
+
+		<p>Using CSS decreases the amount of HTML tags needed for a particular look/feel, and helps to avoid repeating tags when you 
+		want to re-use a style on multiple parts of the same page. This becomes more and more important as your website becomes larger.
+		Imagine creating a 15-page website with a specific color-scheme for every paragraph of text on each page, and then your client 
+		tells you that they want to use a different color-scheme. If you didn't use CSS, you would have to make the color code changes
+		on <strong>ALL 15 pages</strong>! Fortunately for you, however, you took this course and knew to use CSS. And because you created 
+		a class that defined the color-scheme, you only have to change the color code <strong>once in the CSS style definition</strong>
+		you created...<strong>whew</strong>!</p><br>
+
+<a href="#TOP"> back to top </a>
+</div>
+
+<!-- This is the end of the page. BE SURE TO CLOSE THE </BODY> & </HTML> tags below. -->
+
+</body>
+</html>
+
+</body>
+
+</html>
