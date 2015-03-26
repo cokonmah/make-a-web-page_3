@@ -1,0 +1,59 @@
+/* External Style Sheet for Notes to HTML Pt2 */
+
+
+* {
+    
+-webkit-box-sizing: border-box;
+    
+-moz-box-sizing: border-box;
+    
+-ms-box-sizing: border-box;
+    
+box-sizing: border-box;
+}
+
+body {
+    font-family: arial, courier, calibri;
+    background-color: #FFFFCC;
+}
+
+H1 {
+   color: #99CCFF;
+   text-decoration: underline;
+   font-family: calibri;
+}
+
+H2.TOC {
+   color: #FF3300;
+}
+
+H3.TOC {
+   color: #FF3300;
+   margin: 30px;
+}
+
+a:visited {color:#99CCFF;}  /* visited link */
+ /* a:hover {color:#FF00FF;}  mouse over link - pink */
+a:active {color:#0000FF;}  /* selected link */
+
+.section {
+    border-style: solid;
+    border-color: gray;
+    border-radius: 9px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.section1 {
+    background-color: #DDDAF1;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 18px;
+    color: green;
+}
+
+h2.section {
+    color: white;
+    font-weight: bold;
+    font-family: arial, courier, garamond;
+}
